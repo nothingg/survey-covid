@@ -46,7 +46,7 @@ PageALL
     sleep  1s
 
     #3.Page3
-    Run Keyword If  '${ITEM}' == '00001'    Click Element   //*[@id="choice_36_100_0s"]  #ข้อ1-1
+    Run Keyword If  '${ITEM}' == '00002'    Click Element   //*[@id="choice_36_100_0s"]  #ข้อ1-1
         ...     ELSE    Click Element   //*[@id="choice_36_100_1"]  #ข้อ1-2
 #        Click Element   //*[@id="choice_36_100_0"]  #ข้อ1-1
 #        Click Element   //*[@id="choice_36_100_1"]  #ข้อ1-2
@@ -69,10 +69,14 @@ PageALL
 
     FOR    ${ITEM}  IN  @{USER_NO}
 #        Run Keyword And Continue On Failure     PageALL   ${ITEM}
+#        ${status}   Run Keyword And Return Status   PageALL   ${ITEM}
+        #log to console  this is : ${status}[0]
+        #Run Keyword And Return If   "${status}[0]" == "PASS"   Log To Console  This Case is Pass   ELSE     Log To Console  This Case is False
+#        Go To   ${URL}
         ${status}   Run Keyword And Ignore Error   PageALL   ${ITEM}
-        log to console  this is : ${status}
-        Run Keyword And Return If   '${status}' == 'PASS'   Log To Console  This Case is Pass   ELSE     Log To Console  This Case is False
+        Log     Warning, ${status}
         Go To   ${URL}
+
     END
 
 #0.Register Survey

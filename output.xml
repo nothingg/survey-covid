@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.9.7 on win32)" generated="20220530 15:23:24.388" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.9.7 on win32)" generated="20220531 16:33:15.603" rpa="false" schemaversion="3">
 <suite id="s1" name="Survey Covid" source="E:\Learning\Python\udemy\robotframework\servey-covid\survey_covid.robot">
 <kw name="OnBrowser" type="SETUP">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>${URL}</arg>
 <arg>${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20220530 15:23:24.549" level="INFO">Opening browser 'chrome' to base url 'file:///E:/Learning/Python/udemy/robotframework/servey-covid/forms/survey covid 19/page1.html#gf_36'.</msg>
-<status status="PASS" starttime="20220530 15:23:24.549" endtime="20220530 15:23:26.515"/>
+<msg timestamp="20220531 16:33:15.761" level="INFO">Opening browser 'chrome' to base url 'file:///E:/Learning/Python/udemy/robotframework/servey-covid/forms/survey covid 19/page1.html#gf_36'.</msg>
+<status status="PASS" starttime="20220531 16:33:15.761" endtime="20220531 16:33:17.074"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20220530 15:23:26.515" endtime="20220530 15:23:26.625"/>
+<status status="PASS" starttime="20220531 16:33:17.075" endtime="20220531 16:33:17.184"/>
 </kw>
-<status status="PASS" starttime="20220530 15:23:24.549" endtime="20220530 15:23:26.626"/>
+<status status="PASS" starttime="20220531 16:33:15.761" endtime="20220531 16:33:17.184"/>
 </kw>
 <test id="s1-t1" name="1.FOR Register" line="68">
 <for flavor="IN">
@@ -31,54 +31,213 @@
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>//*[@id="choice_36_84_0"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220530 15:23:26.627" level="INFO">Clicking element '//*[@id="choice_36_84_0"]'.</msg>
-<status status="PASS" starttime="20220530 15:23:26.627" endtime="20220530 15:23:26.665"/>
+<msg timestamp="20220531 16:33:17.187" level="INFO">Clicking element '//*[@id="choice_36_84_0"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:17.187" endtime="20220531 16:33:17.237"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>//*[@id="choice_36_1_0"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220530 15:23:26.666" level="INFO">Clicking element '//*[@id="choice_36_1_0"]'.</msg>
-<status status="PASS" starttime="20220530 15:23:26.665" endtime="20220530 15:23:26.708"/>
+<msg timestamp="20220531 16:33:17.238" level="INFO">Clicking element '//*[@id="choice_36_1_0"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:17.237" endtime="20220531 16:33:17.282"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>//*[@id="input_36_5"]</arg>
 <arg>${ITEM}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20220530 15:23:26.708" level="INFO">Typing text '00001' into text field '//*[@id="input_36_5"]'.</msg>
-<status status="PASS" starttime="20220530 15:23:26.708" endtime="20220530 15:23:26.760"/>
+<msg timestamp="20220531 16:33:17.282" level="INFO">Typing text '00001' into text field '//*[@id="input_36_5"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:17.282" endtime="20220531 16:33:17.333"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>//*[@id="gform_next_button_36_52"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220530 15:23:26.761" level="INFO">Clicking element '//*[@id="gform_next_button_36_52"]'.</msg>
-<status status="PASS" starttime="20220530 15:23:26.760" endtime="20220530 15:23:26.925"/>
+<msg timestamp="20220531 16:33:17.333" level="INFO">Clicking element '//*[@id="gform_next_button_36_52"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:17.333" endtime="20220531 16:33:17.502"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220530 15:23:27.927" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20220530 15:23:26.926" endtime="20220530 15:23:27.927"/>
+<msg timestamp="20220531 16:33:18.504" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220531 16:33:17.502" endtime="20220531 16:33:18.504"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>//*[@id="input_36_96_1"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220530 15:23:27.927" level="INFO">Clicking element '//*[@id="input_36_96_1"]'.</msg>
-<status status="PASS" starttime="20220530 15:23:27.927" endtime="20220530 15:23:27.957"/>
+<msg timestamp="20220531 16:33:18.504" level="INFO">Clicking element '//*[@id="input_36_96_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:18.504" endtime="20220531 16:33:18.533"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>//*[@id="gform_next_button_36_97"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220530 15:23:27.957" level="INFO">Clicking element '//*[@id="gform_next_button_36_97"]'.</msg>
-<status status="PASS" starttime="20220530 15:23:27.957" endtime="20220530 15:23:28.126"/>
+<msg timestamp="20220531 16:33:18.534" level="INFO">Clicking element '//*[@id="gform_next_button_36_97"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:18.533" endtime="20220531 16:33:18.718"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220530 15:23:29.128" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20220530 15:23:28.127" endtime="20220530 15:23:29.128"/>
+<msg timestamp="20220531 16:33:19.719" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220531 16:33:18.718" endtime="20220531 16:33:19.719"/>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
-<arg>'${ITEM}' == '00001'</arg>
+<arg>'${ITEM}' == '00002'</arg>
+<arg>Click Element</arg>
+<arg>//*[@id="choice_36_100_0s"]</arg>
+<arg>ELSE</arg>
+<arg>Click Element</arg>
+<arg>//*[@id="choice_36_100_1"]</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_100_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:19.719" level="INFO">Clicking element '//*[@id="choice_36_100_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:19.719" endtime="20220531 16:33:19.753"/>
+</kw>
+<status status="PASS" starttime="20220531 16:33:19.719" endtime="20220531 16:33:19.753"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_101_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:19.753" level="INFO">Clicking element '//*[@id="choice_36_101_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:19.753" endtime="20220531 16:33:19.783"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_103_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:19.783" level="INFO">Clicking element '//*[@id="choice_36_103_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:19.783" endtime="20220531 16:33:19.816"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_105_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:19.816" level="INFO">Clicking element '//*[@id="choice_36_105_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:19.816" endtime="20220531 16:33:19.853"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_107_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:19.853" level="INFO">Clicking element '//*[@id="choice_36_107_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:19.853" endtime="20220531 16:33:19.882"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_110_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:19.883" level="INFO">Clicking element '//*[@id="choice_36_110_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:19.882" endtime="20220531 16:33:19.912"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="input_36_106"]</arg>
+<arg>0867023192</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:19.912" level="INFO">Typing text '0867023192' into text field '//*[@id="input_36_106"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:19.912" endtime="20220531 16:33:19.965"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="gform_next_button_36_108"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:19.965" level="INFO">Clicking element '//*[@id="gform_next_button_36_108"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:19.965" endtime="20220531 16:33:20.152"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220531 16:33:21.154" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220531 16:33:20.152" endtime="20220531 16:33:21.154"/>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20220531 16:33:21.270" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-17.png"&gt;&lt;img src="selenium-screenshot-17.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20220531 16:33:21.154" endtime="20220531 16:33:21.271"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="input_36_91_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:21.271" level="INFO">Clicking element '//*[@id="input_36_91_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:21.271" endtime="20220531 16:33:21.302"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="gform_submit_button_36"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:21.303" level="INFO">Clicking element '//*[@id="gform_submit_button_36"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:21.303" endtime="20220531 16:33:21.405"/>
+</kw>
+<status status="PASS" starttime="20220531 16:33:17.187" endtime="20220531 16:33:21.405"/>
+</kw>
+<msg timestamp="20220531 16:33:21.405" level="INFO">${status} = ('PASS', None)</msg>
+<status status="PASS" starttime="20220531 16:33:17.186" endtime="20220531 16:33:21.405"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Warning, ${status}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220531 16:33:21.405" level="INFO">Warning, ('PASS', None)</msg>
+<status status="PASS" starttime="20220531 16:33:21.405" endtime="20220531 16:33:21.405"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20220531 16:33:21.406" level="INFO">Opening url 'file:///E:/Learning/Python/udemy/robotframework/servey-covid/forms/survey covid 19/page1.html#gf_36'</msg>
+<status status="PASS" starttime="20220531 16:33:21.405" endtime="20220531 16:33:21.519"/>
+</kw>
+<status status="PASS" starttime="20220531 16:33:17.186" endtime="20220531 16:33:21.519"/>
+</iter>
+<iter>
+<var name="${ITEM}">00002</var>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<var>${status}</var>
+<arg>PageALL</arg>
+<arg>${ITEM}</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<kw name="PageALL">
+<arg>${ITEM}</arg>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_84_0"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:21.520" level="INFO">Clicking element '//*[@id="choice_36_84_0"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:21.520" endtime="20220531 16:33:21.554"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_1_0"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:21.555" level="INFO">Clicking element '//*[@id="choice_36_1_0"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:21.555" endtime="20220531 16:33:21.593"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="input_36_5"]</arg>
+<arg>${ITEM}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:21.594" level="INFO">Typing text '00002' into text field '//*[@id="input_36_5"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:21.593" endtime="20220531 16:33:21.639"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="gform_next_button_36_52"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:21.639" level="INFO">Clicking element '//*[@id="gform_next_button_36_52"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:21.639" endtime="20220531 16:33:21.784"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220531 16:33:22.785" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220531 16:33:21.784" endtime="20220531 16:33:22.785"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="input_36_96_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:22.785" level="INFO">Clicking element '//*[@id="input_36_96_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:22.785" endtime="20220531 16:33:22.813"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="gform_next_button_36_97"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:22.814" level="INFO">Clicking element '//*[@id="gform_next_button_36_97"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:22.813" endtime="20220531 16:33:22.957"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220531 16:33:23.958" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220531 16:33:22.957" endtime="20220531 16:33:23.958"/>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<arg>'${ITEM}' == '00002'</arg>
 <arg>Click Element</arg>
 <arg>//*[@id="choice_36_100_0s"]</arg>
 <arg>ELSE</arg>
@@ -88,107 +247,578 @@
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>//*[@id="choice_36_100_0s"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220530 15:23:29.128" level="INFO">Clicking element '//*[@id="choice_36_100_0s"]'.</msg>
-<msg timestamp="20220530 15:23:29.267" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-9.png"&gt;&lt;img src="selenium-screenshot-9.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg timestamp="20220530 15:23:29.268" level="FAIL">Element with locator '//*[@id="choice_36_100_0s"]' not found.</msg>
-<status status="FAIL" starttime="20220530 15:23:29.128" endtime="20220530 15:23:29.270"/>
+<msg timestamp="20220531 16:33:23.958" level="INFO">Clicking element '//*[@id="choice_36_100_0s"]'.</msg>
+<msg timestamp="20220531 16:33:24.051" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-18.png"&gt;&lt;img src="selenium-screenshot-18.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220531 16:33:24.052" level="FAIL">Element with locator '//*[@id="choice_36_100_0s"]' not found.</msg>
+<status status="FAIL" starttime="20220531 16:33:23.958" endtime="20220531 16:33:24.053"/>
 </kw>
-<status status="FAIL" starttime="20220530 15:23:29.128" endtime="20220530 15:23:29.270"/>
+<status status="FAIL" starttime="20220531 16:33:23.958" endtime="20220531 16:33:24.053"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>//*[@id="choice_36_101_1"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20220530 15:23:29.271" endtime="20220530 15:23:29.271"/>
+<status status="NOT RUN" starttime="20220531 16:33:24.053" endtime="20220531 16:33:24.053"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>//*[@id="choice_36_103_1"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20220530 15:23:29.271" endtime="20220530 15:23:29.271"/>
+<status status="NOT RUN" starttime="20220531 16:33:24.053" endtime="20220531 16:33:24.053"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>//*[@id="choice_36_105_1"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20220530 15:23:29.271" endtime="20220530 15:23:29.271"/>
+<status status="NOT RUN" starttime="20220531 16:33:24.053" endtime="20220531 16:33:24.054"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>//*[@id="choice_36_107_1"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20220530 15:23:29.271" endtime="20220530 15:23:29.271"/>
+<status status="NOT RUN" starttime="20220531 16:33:24.054" endtime="20220531 16:33:24.054"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>//*[@id="choice_36_110_1"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20220530 15:23:29.271" endtime="20220530 15:23:29.271"/>
+<status status="NOT RUN" starttime="20220531 16:33:24.054" endtime="20220531 16:33:24.054"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>//*[@id="input_36_106"]</arg>
 <arg>0867023192</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20220530 15:23:29.271" endtime="20220530 15:23:29.271"/>
+<status status="NOT RUN" starttime="20220531 16:33:24.054" endtime="20220531 16:33:24.054"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>//*[@id="gform_next_button_36_108"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20220530 15:23:29.271" endtime="20220530 15:23:29.271"/>
+<status status="NOT RUN" starttime="20220531 16:33:24.054" endtime="20220531 16:33:24.054"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" starttime="20220530 15:23:29.271" endtime="20220530 15:23:29.271"/>
+<status status="NOT RUN" starttime="20220531 16:33:24.054" endtime="20220531 16:33:24.054"/>
 </kw>
 <kw name="Capture Page Screenshot" library="SeleniumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<status status="NOT RUN" starttime="20220530 15:23:29.271" endtime="20220530 15:23:29.271"/>
+<status status="NOT RUN" starttime="20220531 16:33:24.054" endtime="20220531 16:33:24.054"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>//*[@id="input_36_91_1"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20220530 15:23:29.271" endtime="20220530 15:23:29.272"/>
+<status status="NOT RUN" starttime="20220531 16:33:24.054" endtime="20220531 16:33:24.054"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>//*[@id="gform_submit_button_36"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20220530 15:23:29.272" endtime="20220530 15:23:29.272"/>
+<status status="NOT RUN" starttime="20220531 16:33:24.054" endtime="20220531 16:33:24.054"/>
 </kw>
-<status status="FAIL" starttime="20220530 15:23:26.627" endtime="20220530 15:23:29.272"/>
+<status status="FAIL" starttime="20220531 16:33:21.519" endtime="20220531 16:33:24.055"/>
 </kw>
-<msg timestamp="20220530 15:23:29.272" level="INFO">${status} = ('FAIL', 'Element with locator \'//*[@id="choice_36_100_0s"]\' not found.')</msg>
-<status status="PASS" starttime="20220530 15:23:26.627" endtime="20220530 15:23:29.272"/>
+<msg timestamp="20220531 16:33:24.055" level="INFO">${status} = ('FAIL', 'Element with locator \'//*[@id="choice_36_100_0s"]\' not found.')</msg>
+<status status="PASS" starttime="20220531 16:33:21.519" endtime="20220531 16:33:24.055"/>
 </kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>this is : ${status}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220530 15:23:29.272" endtime="20220530 15:23:29.272"/>
-</kw>
-<kw name="Run Keyword And Return If" library="BuiltIn">
-<arg>'${status}' == 'FAIL'</arg>
-<arg>Log To Console</arg>
-<arg>This Case is False</arg>
-<doc>Runs the specified keyword and returns from the enclosing user keyword.</doc>
-<msg timestamp="20220530 15:23:29.273" level="FAIL">Evaluating expression ''('FAIL', 'Element with locator \'//*[@id="choice_36_100_0s"]\' not found.')' == 'FAIL'' failed: SyntaxError: invalid syntax (&lt;string&gt;, line 1)</msg>
-<status status="FAIL" starttime="20220530 15:23:29.272" endtime="20220530 15:23:29.274"/>
+<kw name="Log" library="BuiltIn">
+<arg>Warning, ${status}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220531 16:33:24.055" level="INFO">Warning, ('FAIL', 'Element with locator \'//*[@id="choice_36_100_0s"]\' not found.')</msg>
+<status status="PASS" starttime="20220531 16:33:24.055" endtime="20220531 16:33:24.055"/>
 </kw>
 <kw name="Go To" library="SeleniumLibrary">
 <arg>${URL}</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<status status="NOT RUN" starttime="20220530 15:23:29.274" endtime="20220530 15:23:29.274"/>
+<msg timestamp="20220531 16:33:24.055" level="INFO">Opening url 'file:///E:/Learning/Python/udemy/robotframework/servey-covid/forms/survey covid 19/page1.html#gf_36'</msg>
+<status status="PASS" starttime="20220531 16:33:24.055" endtime="20220531 16:33:24.164"/>
 </kw>
-<status status="FAIL" starttime="20220530 15:23:26.627" endtime="20220530 15:23:29.274"/>
+<status status="PASS" starttime="20220531 16:33:21.519" endtime="20220531 16:33:24.164"/>
 </iter>
-<status status="FAIL" starttime="20220530 15:23:26.627" endtime="20220530 15:23:29.274"/>
+<iter>
+<var name="${ITEM}">00003</var>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<var>${status}</var>
+<arg>PageALL</arg>
+<arg>${ITEM}</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<kw name="PageALL">
+<arg>${ITEM}</arg>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_84_0"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:24.165" level="INFO">Clicking element '//*[@id="choice_36_84_0"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:24.165" endtime="20220531 16:33:24.201"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_1_0"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:24.202" level="INFO">Clicking element '//*[@id="choice_36_1_0"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:24.202" endtime="20220531 16:33:24.236"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="input_36_5"]</arg>
+<arg>${ITEM}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:24.236" level="INFO">Typing text '00003' into text field '//*[@id="input_36_5"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:24.236" endtime="20220531 16:33:24.279"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="gform_next_button_36_52"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:24.280" level="INFO">Clicking element '//*[@id="gform_next_button_36_52"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:24.280" endtime="20220531 16:33:24.415"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220531 16:33:25.418" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220531 16:33:24.416" endtime="20220531 16:33:25.418"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="input_36_96_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:25.418" level="INFO">Clicking element '//*[@id="input_36_96_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:25.418" endtime="20220531 16:33:25.445"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="gform_next_button_36_97"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:25.446" level="INFO">Clicking element '//*[@id="gform_next_button_36_97"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:25.446" endtime="20220531 16:33:25.593"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220531 16:33:26.595" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220531 16:33:25.593" endtime="20220531 16:33:26.595"/>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<arg>'${ITEM}' == '00002'</arg>
+<arg>Click Element</arg>
+<arg>//*[@id="choice_36_100_0s"]</arg>
+<arg>ELSE</arg>
+<arg>Click Element</arg>
+<arg>//*[@id="choice_36_100_1"]</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_100_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:26.595" level="INFO">Clicking element '//*[@id="choice_36_100_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:26.595" endtime="20220531 16:33:26.627"/>
+</kw>
+<status status="PASS" starttime="20220531 16:33:26.595" endtime="20220531 16:33:26.627"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_101_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:26.628" level="INFO">Clicking element '//*[@id="choice_36_101_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:26.628" endtime="20220531 16:33:26.659"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_103_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:26.659" level="INFO">Clicking element '//*[@id="choice_36_103_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:26.659" endtime="20220531 16:33:26.687"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_105_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:26.687" level="INFO">Clicking element '//*[@id="choice_36_105_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:26.687" endtime="20220531 16:33:26.715"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_107_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:26.716" level="INFO">Clicking element '//*[@id="choice_36_107_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:26.715" endtime="20220531 16:33:26.744"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_110_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:26.744" level="INFO">Clicking element '//*[@id="choice_36_110_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:26.744" endtime="20220531 16:33:26.772"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="input_36_106"]</arg>
+<arg>0867023192</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:26.772" level="INFO">Typing text '0867023192' into text field '//*[@id="input_36_106"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:26.772" endtime="20220531 16:33:26.832"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="gform_next_button_36_108"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:26.833" level="INFO">Clicking element '//*[@id="gform_next_button_36_108"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:26.833" endtime="20220531 16:33:26.964"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220531 16:33:27.965" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220531 16:33:26.964" endtime="20220531 16:33:27.965"/>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20220531 16:33:28.039" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-19.png"&gt;&lt;img src="selenium-screenshot-19.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20220531 16:33:27.965" endtime="20220531 16:33:28.039"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="input_36_91_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:28.040" level="INFO">Clicking element '//*[@id="input_36_91_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:28.040" endtime="20220531 16:33:28.075"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="gform_submit_button_36"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:28.075" level="INFO">Clicking element '//*[@id="gform_submit_button_36"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:28.075" endtime="20220531 16:33:28.163"/>
+</kw>
+<status status="PASS" starttime="20220531 16:33:24.164" endtime="20220531 16:33:28.163"/>
+</kw>
+<msg timestamp="20220531 16:33:28.163" level="INFO">${status} = ('PASS', None)</msg>
+<status status="PASS" starttime="20220531 16:33:24.164" endtime="20220531 16:33:28.163"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Warning, ${status}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220531 16:33:28.163" level="INFO">Warning, ('PASS', None)</msg>
+<status status="PASS" starttime="20220531 16:33:28.163" endtime="20220531 16:33:28.163"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20220531 16:33:28.163" level="INFO">Opening url 'file:///E:/Learning/Python/udemy/robotframework/servey-covid/forms/survey covid 19/page1.html#gf_36'</msg>
+<status status="PASS" starttime="20220531 16:33:28.163" endtime="20220531 16:33:28.273"/>
+</kw>
+<status status="PASS" starttime="20220531 16:33:24.164" endtime="20220531 16:33:28.273"/>
+</iter>
+<iter>
+<var name="${ITEM}">00004</var>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<var>${status}</var>
+<arg>PageALL</arg>
+<arg>${ITEM}</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<kw name="PageALL">
+<arg>${ITEM}</arg>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_84_0"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:28.274" level="INFO">Clicking element '//*[@id="choice_36_84_0"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:28.274" endtime="20220531 16:33:28.309"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_1_0"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:28.310" level="INFO">Clicking element '//*[@id="choice_36_1_0"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:28.310" endtime="20220531 16:33:28.353"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="input_36_5"]</arg>
+<arg>${ITEM}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:28.354" level="INFO">Typing text '00004' into text field '//*[@id="input_36_5"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:28.353" endtime="20220531 16:33:28.401"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="gform_next_button_36_52"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:28.401" level="INFO">Clicking element '//*[@id="gform_next_button_36_52"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:28.401" endtime="20220531 16:33:28.549"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220531 16:33:29.552" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220531 16:33:28.549" endtime="20220531 16:33:29.552"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="input_36_96_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:29.552" level="INFO">Clicking element '//*[@id="input_36_96_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:29.552" endtime="20220531 16:33:29.581"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="gform_next_button_36_97"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:29.581" level="INFO">Clicking element '//*[@id="gform_next_button_36_97"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:29.581" endtime="20220531 16:33:29.747"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220531 16:33:30.749" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220531 16:33:29.747" endtime="20220531 16:33:30.749"/>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<arg>'${ITEM}' == '00002'</arg>
+<arg>Click Element</arg>
+<arg>//*[@id="choice_36_100_0s"]</arg>
+<arg>ELSE</arg>
+<arg>Click Element</arg>
+<arg>//*[@id="choice_36_100_1"]</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_100_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:30.749" level="INFO">Clicking element '//*[@id="choice_36_100_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:30.749" endtime="20220531 16:33:30.781"/>
+</kw>
+<status status="PASS" starttime="20220531 16:33:30.749" endtime="20220531 16:33:30.781"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_101_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:30.782" level="INFO">Clicking element '//*[@id="choice_36_101_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:30.781" endtime="20220531 16:33:30.811"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_103_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:30.811" level="INFO">Clicking element '//*[@id="choice_36_103_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:30.811" endtime="20220531 16:33:30.841"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_105_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:30.841" level="INFO">Clicking element '//*[@id="choice_36_105_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:30.841" endtime="20220531 16:33:30.869"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_107_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:30.869" level="INFO">Clicking element '//*[@id="choice_36_107_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:30.869" endtime="20220531 16:33:30.897"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_110_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:30.897" level="INFO">Clicking element '//*[@id="choice_36_110_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:30.897" endtime="20220531 16:33:30.927"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="input_36_106"]</arg>
+<arg>0867023192</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:30.927" level="INFO">Typing text '0867023192' into text field '//*[@id="input_36_106"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:30.927" endtime="20220531 16:33:30.978"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="gform_next_button_36_108"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:30.979" level="INFO">Clicking element '//*[@id="gform_next_button_36_108"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:30.979" endtime="20220531 16:33:31.104"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220531 16:33:32.105" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220531 16:33:31.104" endtime="20220531 16:33:32.105"/>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20220531 16:33:32.175" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-20.png"&gt;&lt;img src="selenium-screenshot-20.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20220531 16:33:32.105" endtime="20220531 16:33:32.175"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="input_36_91_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:32.175" level="INFO">Clicking element '//*[@id="input_36_91_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:32.175" endtime="20220531 16:33:32.208"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="gform_submit_button_36"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:32.208" level="INFO">Clicking element '//*[@id="gform_submit_button_36"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:32.208" endtime="20220531 16:33:32.296"/>
+</kw>
+<status status="PASS" starttime="20220531 16:33:28.274" endtime="20220531 16:33:32.296"/>
+</kw>
+<msg timestamp="20220531 16:33:32.297" level="INFO">${status} = ('PASS', None)</msg>
+<status status="PASS" starttime="20220531 16:33:28.274" endtime="20220531 16:33:32.297"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Warning, ${status}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220531 16:33:32.297" level="INFO">Warning, ('PASS', None)</msg>
+<status status="PASS" starttime="20220531 16:33:32.297" endtime="20220531 16:33:32.297"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20220531 16:33:32.297" level="INFO">Opening url 'file:///E:/Learning/Python/udemy/robotframework/servey-covid/forms/survey covid 19/page1.html#gf_36'</msg>
+<status status="PASS" starttime="20220531 16:33:32.297" endtime="20220531 16:33:32.412"/>
+</kw>
+<status status="PASS" starttime="20220531 16:33:28.273" endtime="20220531 16:33:32.412"/>
+</iter>
+<iter>
+<var name="${ITEM}">00005</var>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<var>${status}</var>
+<arg>PageALL</arg>
+<arg>${ITEM}</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<kw name="PageALL">
+<arg>${ITEM}</arg>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_84_0"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:32.413" level="INFO">Clicking element '//*[@id="choice_36_84_0"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:32.413" endtime="20220531 16:33:32.446"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_1_0"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:32.447" level="INFO">Clicking element '//*[@id="choice_36_1_0"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:32.447" endtime="20220531 16:33:32.487"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="input_36_5"]</arg>
+<arg>${ITEM}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:32.487" level="INFO">Typing text '00005' into text field '//*[@id="input_36_5"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:32.487" endtime="20220531 16:33:32.534"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="gform_next_button_36_52"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:32.534" level="INFO">Clicking element '//*[@id="gform_next_button_36_52"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:32.534" endtime="20220531 16:33:32.682"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220531 16:33:33.682" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220531 16:33:32.682" endtime="20220531 16:33:33.682"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="input_36_96_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:33.682" level="INFO">Clicking element '//*[@id="input_36_96_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:33.682" endtime="20220531 16:33:33.716"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="gform_next_button_36_97"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:33.717" level="INFO">Clicking element '//*[@id="gform_next_button_36_97"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:33.716" endtime="20220531 16:33:33.866"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220531 16:33:34.867" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220531 16:33:33.866" endtime="20220531 16:33:34.867"/>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<arg>'${ITEM}' == '00002'</arg>
+<arg>Click Element</arg>
+<arg>//*[@id="choice_36_100_0s"]</arg>
+<arg>ELSE</arg>
+<arg>Click Element</arg>
+<arg>//*[@id="choice_36_100_1"]</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_100_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:34.867" level="INFO">Clicking element '//*[@id="choice_36_100_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:34.867" endtime="20220531 16:33:34.900"/>
+</kw>
+<status status="PASS" starttime="20220531 16:33:34.867" endtime="20220531 16:33:34.900"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_101_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:34.900" level="INFO">Clicking element '//*[@id="choice_36_101_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:34.900" endtime="20220531 16:33:34.928"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_103_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:34.929" level="INFO">Clicking element '//*[@id="choice_36_103_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:34.928" endtime="20220531 16:33:34.957"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_105_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:34.958" level="INFO">Clicking element '//*[@id="choice_36_105_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:34.957" endtime="20220531 16:33:34.986"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_107_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:34.986" level="INFO">Clicking element '//*[@id="choice_36_107_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:34.986" endtime="20220531 16:33:35.019"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="choice_36_110_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:35.020" level="INFO">Clicking element '//*[@id="choice_36_110_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:35.019" endtime="20220531 16:33:35.049"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="input_36_106"]</arg>
+<arg>0867023192</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:35.049" level="INFO">Typing text '0867023192' into text field '//*[@id="input_36_106"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:35.049" endtime="20220531 16:33:35.099"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="gform_next_button_36_108"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:35.100" level="INFO">Clicking element '//*[@id="gform_next_button_36_108"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:35.100" endtime="20220531 16:33:35.227"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220531 16:33:36.230" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220531 16:33:35.227" endtime="20220531 16:33:36.230"/>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20220531 16:33:36.298" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-21.png"&gt;&lt;img src="selenium-screenshot-21.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20220531 16:33:36.230" endtime="20220531 16:33:36.298"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="input_36_91_1"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:36.298" level="INFO">Clicking element '//*[@id="input_36_91_1"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:36.298" endtime="20220531 16:33:36.329"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="gform_submit_button_36"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220531 16:33:36.329" level="INFO">Clicking element '//*[@id="gform_submit_button_36"]'.</msg>
+<status status="PASS" starttime="20220531 16:33:36.329" endtime="20220531 16:33:36.416"/>
+</kw>
+<status status="PASS" starttime="20220531 16:33:32.413" endtime="20220531 16:33:36.416"/>
+</kw>
+<msg timestamp="20220531 16:33:36.416" level="INFO">${status} = ('PASS', None)</msg>
+<status status="PASS" starttime="20220531 16:33:32.412" endtime="20220531 16:33:36.416"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Warning, ${status}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220531 16:33:36.417" level="INFO">Warning, ('PASS', None)</msg>
+<status status="PASS" starttime="20220531 16:33:36.416" endtime="20220531 16:33:36.417"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20220531 16:33:36.417" level="INFO">Opening url 'file:///E:/Learning/Python/udemy/robotframework/servey-covid/forms/survey covid 19/page1.html#gf_36'</msg>
+<status status="PASS" starttime="20220531 16:33:36.417" endtime="20220531 16:33:36.530"/>
+</kw>
+<status status="PASS" starttime="20220531 16:33:32.412" endtime="20220531 16:33:36.530"/>
+</iter>
+<status status="PASS" starttime="20220531 16:33:17.186" endtime="20220531 16:33:36.530"/>
 </for>
-<status status="FAIL" starttime="20220530 15:23:26.626" endtime="20220530 15:23:29.275">Evaluating expression ''('FAIL', 'Element with locator \'//*[@id="choice_36_100_0s"]\' not found.')' == 'FAIL'' failed: SyntaxError: invalid syntax (&lt;string&gt;, line 1)</status>
+<status status="PASS" starttime="20220531 16:33:17.185" endtime="20220531 16:33:36.530"/>
 </test>
-<status status="FAIL" starttime="20220530 15:23:24.389" endtime="20220530 15:23:29.275"/>
+<status status="PASS" starttime="20220531 16:33:15.604" endtime="20220531 16:33:36.531"/>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="1" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="0" fail="1" skip="0" id="s1" name="Survey Covid">Survey Covid</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Survey Covid">Survey Covid</stat>
 </suite>
 </statistics>
 <errors>
