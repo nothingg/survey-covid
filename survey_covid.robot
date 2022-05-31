@@ -6,8 +6,8 @@ Suite Setup     OnBrowser
 
 *** Variables ***
 ${BROWSER}  chrome
-#${URL}  file:///E:/Learning/python/robot%20framework/unmatch/survey%20covid%2019/page1.html#gf_36
-${URL}  file:///E:/Learning/Python/udemy/robotframework/servey-covid/forms/survey covid 19/page1.html#gf_36
+${URL}  file:///D:/_GHB/RobotFramework/survey-covid/forms/survey%20covid%2019%20-%20home/page1.html#gf_36
+#${URL}  file:///E:/Learning/Python/udemy/robotframework/servey-covid/forms/survey covid 19/page1.html#gf_36
 @{USER_NO}  00001   00002   00003   00004   00005
 
 *** Keywords ***
@@ -64,6 +64,10 @@ PageALL
     Click Element   //*[@id="input_36_91_1"]    #chkbox
     Click Element   //*[@id="gform_submit_button_36"]   #btn ส่งข้อมูล
 
+LogOnConsole
+#    [Arguments]   ${TEXT}
+    log to console  This is True
+
 *** Test Cases ***
 1.FOR Register
 
@@ -73,8 +77,19 @@ PageALL
         #log to console  this is : ${status}[0]
         #Run Keyword And Return If   "${status}[0]" == "PASS"   Log To Console  This Case is Pass   ELSE     Log To Console  This Case is False
 #        Go To   ${URL}
+#        ${status}   Run Keyword And Ignore Error   PageALL   ${ITEM}
+#        Log     Warning, ${status}  WARN
+#        Go To   ${URL}
+
+#        ${status} =   Run Keyword And Return Status   PageALL   ${ITEM}
+#        log to console  ${status}
+#        Run Keyword IF   '${status}' == 'True'   Log    Ok,${status}    ELSE    Log    Warning, ${status}  WARN
+
         ${status}   Run Keyword And Ignore Error   PageALL   ${ITEM}
-        Log     Warning, ${status}
+        log to console  ${status}
+        Run Keyword IF   '${status}[0]' == 'PASS'   Log    Ok,${status}[0]    ELSE    Log    ERROR , ${status}[0] : ${status}[1]  ERROR
+
+
         Go To   ${URL}
 
     END

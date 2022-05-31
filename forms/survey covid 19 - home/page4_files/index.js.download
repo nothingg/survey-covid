@@ -1,0 +1,19 @@
+jQuery(document).ready(function( $ ){
+
+  var userprofile36_emp = $('#input_36_79').val() + '<br />' + $('#input_36_115').val() + ' ' + $('#input_36_80').val() + '<br />' +$('#input_36_81').val() + '<br />' +$('#input_36_82').val()+ '<br />' +$('#input_36_83').val() ;
+  var userprofile36_other = $('#input_36_13').val() + '<br />' + $('#input_36_20').val() + '<br />' +$('#input_36_99').val() + '<br />' +$('#input_36_98').val() ;
+  
+  if( $('#input_36_79').val() ){ 
+    $('#gfield_consent_description_36_96').html( userprofile36_emp );
+  }
+  
+  if( $('#input_36_13').val() ){
+    $('#gfield_consent_description_36_96').html( userprofile36_other );
+  }
+  
+  $( "#gform_36 li.description-to-field-label" ).each(function( index ) {
+     $( this ).find( ".gfield_label" ).html(  $( this ).find( ".gfield_description" ).html() );
+  });
+  $(".description-to-field-label .gfield_description").hide();
+
+});
